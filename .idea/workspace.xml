@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="917b7782-2ee4-4c4e-9493-2b78a60499ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/bibim/backend/Controller/PostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/bibim/backend/repository/MemoryPostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/bibim/backend/repository/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/bibim/backend/service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/bibim/backend/domain/dto/CreatePostDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/bibim/backend/domain/dto/ResponsePostCreateDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/bibim/backend/Controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/bibim/backend/Controller/PostController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +102,7 @@
       <workItem from="1714558502075" duration="4112000" />
       <workItem from="1715151695492" duration="4677000" />
       <workItem from="1715564712320" duration="5509000" />
-      <workItem from="1715588511321" duration="15831000" />
+      <workItem from="1715588511321" duration="17088000" />
     </task>
     <servers />
   </component>
