@@ -2,17 +2,26 @@ package bibim.backend.repository;
 import bibim.backend.domain.Post;
 import org.springframework.stereotype.Repository;
 
+import java.util.HashMap;
+import java.util.Map;
+
 
 @Repository
 public class MemoryPostRepository implements PostRepository{
 
+    private static Map<Long, Post> store = new HashMap<>();
+    private static long sequence = 0L;
     @Override
     public Post findById(Long id) {
-        return null;
+        return store.get(id);
     }
 
     @Override
-    public Post save(Post post) {
-        return null;
+    public void save(Post post) {
+        post.setId(++sequence);
+        store.put(post.getId(),post);
+    }
+    public Post findById(long id) {
+        return store.get(id);
     }
 }

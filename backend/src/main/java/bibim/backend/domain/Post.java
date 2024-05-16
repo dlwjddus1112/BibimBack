@@ -2,8 +2,10 @@ package bibim.backend.domain;
 
 import lombok.Builder;
 import lombok.Getter;
+import lombok.Setter;
 
 @Getter
+@Setter
 public class Post {
     private Long id;
     private String title;
@@ -17,11 +19,10 @@ public class Post {
         this.member = member;
     }
 
-    public static Post post(String title, String content, Member member) {
+    public static Post post(String title, String content) {
         return Post.builder()
                 .title(title)
                 .content(content)
-                .member(member)
                 .build();
     }
 }

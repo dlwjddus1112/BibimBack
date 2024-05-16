@@ -1,4 +1,4 @@
 package bibim.backend.domain.dto;
 
-public record ResponsePostCreateDto() {
+public record ResponsePostCreateDto(int status, String message) {
 }
